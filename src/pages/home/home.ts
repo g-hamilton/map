@@ -7,8 +7,12 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  public testList = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 
+  constructor(public navCtrl: NavController) { }
+
+  viewMap() {
+    this.navCtrl.push('MapPage');
   }
 
 }
